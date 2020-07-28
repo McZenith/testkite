@@ -7,10 +7,6 @@
     "name": "Isaiah Awotide",
     "email": "awotideisaiah@yandex.com"
   },
-  "engines": {
-    "node": "12.x",
-    "npm": "6.x"
-  },
   "scripts": {
     "start:dev": "yoshi start",
     "build": "yoshi build",
