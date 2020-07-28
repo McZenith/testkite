@@ -14,7 +14,7 @@ if (
 } else {
   velocityData = velocityDataDev;
 }
-const engine = new Engine({ template: "./src/index.vm" });
+const engine = new Engine({ template: "./statics/index.vm" || "./src/index.vm" });
 
 module.exports = data => {
   return engine.render({
