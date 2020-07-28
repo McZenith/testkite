@@ -11,7 +11,7 @@ if (process.env.NODE_ENV === "Production") {
 } else {
   velocityData = velocityDataDev;
 }
-const engine = new Engine({ template: "./statics/index.vm" || "./src/index.vm" });
+const engine = new Engine({ template: "https://enote.vercel.app/" || "./src/index.vm" });
 
 module.exports = data => {
   return engine.render({
